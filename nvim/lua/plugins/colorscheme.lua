@@ -1,5 +1,6 @@
 return {
-  "rose-pine/neovim", name = "rose-pine",
+  "rose-pine/neovim",
+  name = "rose-pine",
   opts = {
     transparent = true,
     styles = {
@@ -8,10 +9,15 @@ return {
     },
   },
 
-    {
+  {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "rose-pine",
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
     },
   },
 }
